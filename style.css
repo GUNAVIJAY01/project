@@ -3,6 +3,13 @@
 	margin:0;
 	box-sizing:border-box;
 }
+#jio{
+	position:sticky;
+	top:0;
+	background-color:white;
+	z-index:999;
+	padding:13px;
+}
 /* section-1 */
 #sec-1{
 	background-color:#dee2e6;
@@ -24,7 +31,7 @@
 .img img{
 	transition:all .5s ease;
 }
-.img img:hover{
+.aircel:hover img{
 	transform:scale(1.2);
 }
 .leo{
@@ -35,6 +42,16 @@
 	color:white;
 	width:7rem;
 	}
+#sec-1 .thug:hover{
+	background-color:#343a40!important;
+}
+#sec-1 a:hover{
+	background-color:blue;
+	color:white;
+}	
+.icon-1 h5:hover{
+	color:blue;
+}
 	
 	/* section-2 */
 .sec-2{
@@ -49,13 +66,31 @@
 .rio-2{
 		position:absolute;
 		top:190px;
-		right:-10px;
+		right:0px;
 		}
 .ant-man{
+	display:flex;
 	background-color:#ff000029;
-	padding:10px;
-border-radius:25px;}
+	width:70px;
+	text-align:center;
+	height:70px;
+	line-height:70px;
+	border-radius:50%;
+	flex:0 0 auto;
+	align-items:center;
+	justify-content:center;
+}
+#sec-2 a:hover{
+	background-color:#343a40!important;
+}
+		
+		/* section-3 */
 
+.gd{
+	border-right:1px solid #ffffff29;
+	height:9rem;	
+}
+		/* section-4 */
 #sec-4{
 	margin:35px 0;
 }
@@ -83,11 +118,16 @@ border-radius:15px;}
 	padding:5px 5px;
 	color:orange;
 	}
-	
-.id-card img:hover{
+.vi img{ 
+transition:all .5s ease;
+}	
+.vi:hover img{
 	transform:scale(1.2);
 	transition:all .5s ease;
-	
+}
+
+#sec-4 a:hover{
+	background-color:#343a40!important;
 }
 .the i{
 	  color:gray;
@@ -95,8 +135,139 @@ border-radius:15px;}
 
 
 			/* section-5 */
+#sec-5{
+	padding:25px 0;
+} 
 			
 #sec-5 a:hover{
 	background-color:orange!important;
 	color:white;
 }
+			/* section-6 */
+			
+.accordion-button::after {
+    content: "\f067"!important;
+    background-image:none!important;
+	    font: normal normal normal 14px/1 FontAwesome!important;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+	content:"\f068"!important;
+    background-image:none!important;
+transform: rotate(360deg)!important;
+}
+.accordion-button:not(.collapsed) {
+	color:black !important;
+	background-color:white !important;
+box-shadow:white !important;
+border-color:white!important;
+}
+.accordion-button:focus{
+	box-shadow:none !important;
+}
+
+			/* section-7 */
+#sec-7{
+	background-color:#ccd1d740;
+	padding:25px;
+	position:relative;
+	}
+.guna span{
+	color:orange;
+	}
+.left{
+	position:absolute!important;
+	bottom:10%;
+	right:8%;
+	opacity:0.5;
+}	
+.right{
+	position:absolute!important;
+	bottom:10%;
+	right:0;
+	opacity:0.5	;
+}	
+.left span{
+	color:white;
+}
+.right span{
+	color:white;
+}
+.right span:hover,.left span:hover{
+	background-color:blue;
+}
+		/* section-8 */
+		
+#sec-8{
+	padding:15px 0;	
+}	
+input{
+	width:100%;
+}
+#sec-8 a{
+	
+flex: 0 0 auto;}
+
+.then{
+	height:60px;
+}
+input:focus{
+	outline:none;
+}
+input{
+	box-shadow:0 0 50px #ccc;
+	    background-color: #f5f5f5;
+    color: #6F6B80;
+    height:57px;
+}
+.sub{
+	box-shadow:0 0 10px #ccc;
+}
+.airtel{
+	flex;0 0 auto;
+}
+		/* section-9 */
+		
+#sec-9{
+		background-color:black;
+}
+.jio-1 i{
+	text-align:center;
+	background-color:gray;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+.jio-1 i:hover{
+	background-color:blue;
+}
+
+.theo{
+	list-style:none;
+}
+.theo li{
+	padding:5px 0;
+}
+.idea a:hover{
+	color:blue!important;
+}
+.sub-box{
+	box-shadow:0px 0px 3px gray !important;
+	color:light;
+}
+.arrow-up{
+	position:fixed;
+	font-size:20px;
+	bottom:10px;
+right:10px;
+color:white;
+width:50px;
+height:50px;
+text-align:center;
+line-height:50px;
+border-radius:50%;
+background-color:gray;
+}
+	
+}
+

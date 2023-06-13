@@ -1,0 +1,40 @@
+@media(min-width:576px) and (max-width:992px){
+
+.sec-2{
+	
+}
+.rio-1{
+		top:0px;
+		left:0px;
+		z-index:-1;
+}
+.rio-2{
+	top:150px;
+	right:30px;
+}
+.first{
+		
+	}
+   
+   
+   
+}
+@media(min-width:0px) and (max-width:576px){
+
+.first{
+	width:100%;
+	margin-bottom:25px;
+}
+.left{
+	position:absolute!important;
+	bottom:10%;
+	right:15%;
+	opacity:0.5;
+}	
+.right{
+	position:absolute!important;
+	bottom:10%;
+	right:0;
+	opacity:0.5	;
+}	
+}
